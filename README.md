@@ -1,2 +1,2 @@
 # repl.deploy-dev
-repl.deploy testing
+test
