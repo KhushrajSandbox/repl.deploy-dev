@@ -1,1 +1,1 @@
-run = "./repl.deploy --standalone echo hi"
+run = "RUST_LOG=info ./repl.deploy --standalone echo hi"
