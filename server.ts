@@ -24,6 +24,7 @@ app.get("/", async (_, res) => {
 
 async function getStdinLine() {
     for await (const line of readLines(Deno.stdin)) {
+        console.log("GOT LINE: " + line)
         return line
     }
 }
