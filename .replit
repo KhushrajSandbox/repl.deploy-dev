@@ -1,1 +1,1 @@
-run = "RUST_LOG=debug ./repl.deploy deno run -A server.ts"
+run = "RUST_LOG=repl_deploy=debug ./repl.deploy deno run -A server.ts"
